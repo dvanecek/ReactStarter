@@ -1,8 +1,8 @@
 # JetBrains IDE
 .idea/
-*.iml
 *.iws
 /out/
 
 # project
 node_modules/
+dist/bundle.js
