@@ -4,7 +4,7 @@
   "description": "Simple starter package for React and Babel support",
   "main": "index.js",
   "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "start": "webpack-dev-server --watch-poll --inline --hot",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
